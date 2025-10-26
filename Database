@@ -1,0 +1,13 @@
+create database Organization;
+
+use Organization;
+
+create table employee(
+id varchar(20) primary key,
+name varchar(40) not null,
+age int,
+designation varchar(40),
+gender varchar(10),
+picture longblob,
+address text,
+mobile bigint);
